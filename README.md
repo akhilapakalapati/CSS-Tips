@@ -58,3 +58,26 @@ css
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
+
+# Responsive desgin css
+
+```
+@media screen and (min-width: 600px) {
+  .bg-container {
+    background: yellowgreen;
+  }
+}
+
+@media not screen and (min-width: 600px) {
+  .bg-container {
+    background: orange;
+  }
+}
+
+@media (orientation: landscape), (min-width: 600px) {
+  .bg-container {
+    background: yellowgreen;
+  }
+}
+```
+---------------------------------------------------------------------

@@ -80,4 +80,14 @@ css
   }
 }
 ```
+
+# Applied for small device because large start from 992px
+```
+@media screen and (max-width: 768px) {
+    .para {
+      display: none;
+      background-color: red;
+    }
+  }
+```
 ---------------------------------------------------------------------
